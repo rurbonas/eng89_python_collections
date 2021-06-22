@@ -11,7 +11,9 @@
 - CRUD - Create Read update and delete
 
 #  Create a shopping list
-## Syntax [] - name_of_list = ["items in list"]
+```python
+Syntax [] - name_of_list = ["items in list"]
+```
 ```python
 shoppingList = ["mango", "eggs", "tea", "bread", "apples", "tuna"]
 print(shoppingList)
@@ -29,9 +31,11 @@ shoppingList.remove("bread") # Del will remove the specified named item from the
 print(shoppingList)
 ```
 
-#  Create a shopping tuple
-## Syntax () - name_of_list = ("items in list")
-# Lists are MUTABLE tuples are IMMUTABLE (Unchangeable)
+##  Create a shopping tuple
+```python
+Syntax () - name_of_list = ("items in list")
+```
+Lists are MUTABLE tuples are IMMUTABLE (Unchangeable)
 ```python
 shoppingTuple = ("mango", "eggs", "tea", "bread", "apples", "tuna")
 # print(shoppingTuple.pop(3)) will return an error
